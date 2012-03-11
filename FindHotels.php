@@ -97,6 +97,8 @@ function extract_data($page)
     }
 }
 
+//DELETE n1 FROM Hotels n1, Hotels n2 WHERE n1.`idHotels` > n2.`idHotels` AND n1.Title = n2.Title
+
 function connect_to_database($ip, $user, $pw)
 {
     mb_internal_encoding("UTF-8");
